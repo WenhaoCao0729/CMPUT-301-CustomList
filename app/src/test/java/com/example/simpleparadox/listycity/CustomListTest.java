@@ -75,18 +75,7 @@ public class CustomListTest {
         assertEquals(0,mockCity().compareTo(cityList.getCities().get(1)));
     }
 
-    @Test
-    void testHasCity(){
-        CityList cityList = mockCityList();
-        City city = new City("Toronto","Ontario");
 
-        assertEquals(true,cityList.hasCity(city));
-
-        cityList.add(city);
-
-        assertEquals(true,cityList.hasCity(city));
-
-    }
 
     @Test
     void testDelete(){
