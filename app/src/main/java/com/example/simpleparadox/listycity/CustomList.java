@@ -47,4 +47,14 @@ public class CustomList extends ArrayAdapter<City> {
         return view;
 
     }
+
+
+    @Override
+    public int getCount(){
+        return cities.size();
+
+    }
+    public void addCity(City city){
+
+    }
 }
